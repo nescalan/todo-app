@@ -29,7 +29,7 @@ function App() {
         ))}
       </TodoList>
 
-      <CreateTodoButton />
+      <CreateTodoButton msg="Este será nuestro Modal en pantalla" />
     </React.Fragment>
   );
 }
