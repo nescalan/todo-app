@@ -6,6 +6,27 @@ body {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
+@media (min-width: 576px) {
+  body {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    max-width: 960px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+}
+
 #root {
   margin: 0 24px;
   position: relative;
