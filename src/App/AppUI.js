@@ -6,7 +6,15 @@ import { TodoItem } from "../TodoItem";
 import { CreateTodoButton } from "../CreateTodoButton";
 import "./App.css";
 
-function AppUI() {
+function AppUI({
+  completedTodos,
+  totalTodos,
+  searchValue,
+  setSearchValue,
+  searchedTodos,
+  completeTodo,
+  deleteTodo,
+}) {
   return (
     <div className="container">
       <TodoCounter completed={completedTodos} total={totalTodos} />
